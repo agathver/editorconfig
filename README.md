@@ -1,0 +1,2 @@
+# editorconfig
+Creates editorconfig files
