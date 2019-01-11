@@ -120,8 +120,6 @@ func main() {
 		insertFinalNewlineStr,
 		trimTrailingWhitespaceStr)
 
-	log.Printf("%v\n", str)
-
 	err = ioutil.WriteFile(file, []byte(str), 0644)
 
 	if err != nil {
